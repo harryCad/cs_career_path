@@ -3,7 +3,7 @@ Queues Python Review
 Congrats! You have just implemented a queue data structure in Python by creating a Queue class that:
 
 follows FIFO protocol with enqueue(), dequeue(), and peek() methods
-gives you the option of creating bounded queues with a max_size
+gives you the option of creating bounded 4_queues with a max_size
 prevents queue “overflow” and “underflow” by keeping track of size
 Instructions
 1.

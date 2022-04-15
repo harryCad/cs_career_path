@@ -1,19 +1,19 @@
 """
 Python Nodes Review
-We have a few zany characters to keep track of and Python nodes may do just the trick. Let’s get started…
+We have a few zany characters to keep track of and Python 1_nodes may do just the trick. Let’s get started…
 
 Instructions
 1.
-Outside of Node, instantiate three nodes. None have an argument for link_node:
+Outside of Node, instantiate three 1_nodes. None have an argument for link_node:
 
 the first has a value of "likes to yak" and be assigned to a variable yacko
 the second has a value of "has a penchant for hoarding snacks" and be assigned to wacko
 the third has a value of "enjoys spending time in movie lots" and be assigned to dot
 Checkpoint 2 Passed
 2.
-Now let’s give these nodes some responsibilities! yacko can keep track of dot and dot can keep up with wacko. wacko can’t keep track of anything though.
+Now let’s give these 1_nodes some responsibilities! yacko can keep track of dot and dot can keep up with wacko. wacko can’t keep track of anything though.
 
-Below the newly created nodes, use your .set_link_node() method to give:
+Below the newly created 1_nodes, use your .set_link_node() method to give:
 
 yacko a link_node of dot
 dot a link_node of wacko
@@ -25,21 +25,21 @@ When your code is passing, take a moment to consider:
 
 How would you get yacko‘s value?
 How could you get from yacko to wacko‘s value?
-How do you think nodes could be helpful for keeping track of and storing information?Python Nodes Review
-We have a few zany characters to keep track of and Python nodes may do just the trick. Let’s get started…
+How do you think 1_nodes could be helpful for keeping track of and storing information?Python Nodes Review
+We have a few zany characters to keep track of and Python 1_nodes may do just the trick. Let’s get started…
 
 Instructions
 1.
-Outside of Node, instantiate three nodes. None have an argument for link_node:
+Outside of Node, instantiate three 1_nodes. None have an argument for link_node:
 
 the first has a value of "likes to yak" and be assigned to a variable yacko
 the second has a value of "has a penchant for hoarding snacks" and be assigned to wacko
 the third has a value of "enjoys spending time in movie lots" and be assigned to dot
 Checkpoint 2 Passed
 2.
-Now let’s give these nodes some responsibilities! yacko can keep track of dot and dot can keep up with wacko. wacko can’t keep track of anything though.
+Now let’s give these 1_nodes some responsibilities! yacko can keep track of dot and dot can keep up with wacko. wacko can’t keep track of anything though.
 
-Below the newly created nodes, use your .set_link_node() method to give:
+Below the newly created 1_nodes, use your .set_link_node() method to give:
 
 yacko a link_node of dot
 dot a link_node of wacko
@@ -51,7 +51,7 @@ When your code is passing, take a moment to consider:
 
 How would you get yacko‘s value?
 How could you get from yacko to wacko‘s value?
-How do you think nodes could be helpful for keeping track of and storing information?
+How do you think 1_nodes could be helpful for keeping track of and storing information?
 """
 class Node:
   def __init__(self, value, link_node=None):

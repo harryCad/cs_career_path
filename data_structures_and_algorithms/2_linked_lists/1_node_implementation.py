@@ -1,6 +1,6 @@
 """
 Node Implementation
-Let’s implement a linked list in Python. As you might recall, each linked list is a sequential chain of nodes.
+Let’s implement a linked list in Python. As you might recall, each linked list is a sequential chain of 1_nodes.
 So before we start building out the LinkedList itself, we want to build up a Node class in Python that we can use to build our data containers.
 
 Remember that a node contains two elements:

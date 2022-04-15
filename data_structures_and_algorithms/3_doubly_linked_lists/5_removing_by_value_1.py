@@ -13,7 +13,7 @@ Return None
 If there is a matching node, we will then check to see if it is the head or tail of the list:
 If so, call the corresponding .remove_head() or .remove_tail() method
 If not, that means the node was somewhere in the middle of the list. In that case:
-Remove it by resetting the pointers of its previous and next nodes
+Remove it by resetting the pointers of its previous and next 1_nodes
 Finally, return the node’s value property
 Instructions
 1.

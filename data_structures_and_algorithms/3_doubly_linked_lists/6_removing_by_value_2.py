@@ -7,7 +7,7 @@ There are three cases here:
 
 The node was the head of the list, in which case we can just call .remove_head()
 The node was the tail of the list, in which case we can just call .remove_tail()
-The node was somewhere in the middle of the list, in which case we will need to manually change the pointers for its previous and next nodes
+The node was somewhere in the middle of the list, in which case we will need to manually change the pointers for its previous and next 1_nodes
 Instructions
 1.
 Still in your .remove_by_value() method, check if node_to_remove is the list’s head. If so, call .remove_head().
@@ -18,14 +18,14 @@ Stuck? Get a hint
 Else if node_to_remove is the list’s tail, call .remove_tail().
 
 3.
-Else, we know that the node is somewhere in the middle of the list. To remove it, we will need to reset the pointers for the nodes around it. In an else block, create:
+Else, we know that the node is somewhere in the middle of the list. To remove it, we will need to reset the pointers for the 1_nodes around it. In an else block, create:
 
 A next_node node that is equal to node_to_remove‘s next node
 A prev_node node that is equal to node_to_remove‘s previous node
 
 Stuck? Get a hint
 4.
-Now that we have our nodes, we can remove the pointers to and from node_to_remove and have next_node and prev_node point to each other. Still in the else block:
+Now that we have our 1_nodes, we can remove the pointers to and from node_to_remove and have next_node and prev_node point to each other. Still in the else block:
 
 Set next_node‘s previous node to prev_node
 Set prev_node‘s next node to next_node

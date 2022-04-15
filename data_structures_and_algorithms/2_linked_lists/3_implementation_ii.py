@@ -7,7 +7,7 @@ get the head node of the list using .get_head_node()
 Next up, we’ll define methods for our LinkedList class that allow us to:
 
 insert a new head node
-return all the nodes in the list as a string so we can print them out in the terminal!
+return all the 1_nodes in the list as a string so we can print them out in the terminal!
 Instructions
 1.
 Define an .insert_beginning() method which takes new_value as an argument.
@@ -21,7 +21,7 @@ Checkpoint 2 Passed
 
 Stuck? Get a hint
 2.
-Define a .stringify_list() method we can use to print out a string representation of a list’s nodes’ values.
+Define a .stringify_list() method we can use to print out a string representation of a list’s 1_nodes’ values.
 
 The method should traverse the list, beginning at the head node, and collect each node’s value in a string. Once the end of the list has been reached, the method should return the string.
 

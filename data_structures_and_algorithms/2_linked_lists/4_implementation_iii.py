@@ -12,9 +12,9 @@ If node b is removed from the list, the new list should be:
 a -> c
 We need to update the link within the a node to match what b was pointing to prior to removing it from the linked list.
 
-Lucky for us, in Python, nodes which are not referenced will be removed for us automatically. If we take care of the references, b will be “removed” for us in a process called Garbage Collection.
+Lucky for us, in Python, 1_nodes which are not referenced will be removed for us automatically. If we take care of the references, b will be “removed” for us in a process called Garbage Collection.
 
-For the purposes of this lesson, we’ll create a function that removes the first node that contains a particular value. However, you could also build this function to remove nodes by index or remove all nodes that contain a particular value.
+For the purposes of this lesson, we’ll create a function that removes the first node that contains a particular value. However, you could also build this function to remove 1_nodes by index or remove all 1_nodes that contain a particular value.
 
 Instructions
 1.

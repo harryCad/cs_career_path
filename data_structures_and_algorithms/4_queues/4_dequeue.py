@@ -6,7 +6,7 @@ As with peek(), our dequeue() method should return the value of the head. Unlike
 
 For dequeue, there are three scenarios that we will take into account:
 
-The queue is empty, so we cannot remove or return any nodes lest we run into queue “underflow”
+The queue is empty, so we cannot remove or return any 1_nodes lest we run into queue “underflow”
 The queue has one node, so when we remove it, the queue will be empty and we need to reset the queue’s head and tail to None
 The queue has more than one node, and we just remove the head node and reset the head to the following node
 Instructions

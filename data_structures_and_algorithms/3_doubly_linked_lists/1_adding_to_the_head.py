@@ -2,7 +2,7 @@
 Adding to the Head
 In a singly linked list, we can add to the head of the list by checking to see if it already has a head. We then either set the new node as the head (if there was no head) or update the head property, and link the past head to the new head.
 
-Since a doubly linked list has an additional tail property and is built with nodes that each have two pointers, there are a few more steps:
+Since a doubly linked list has an additional tail property and is built with 1_nodes that each have two pointers, there are a few more steps:
 
 Start by checking to see if there is a current head to the list
 If there is (meaning the list is not empty), then we want to reset the pointers at the head of the list:
